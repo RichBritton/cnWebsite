@@ -1,0 +1,133 @@
+
+
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    background-color: white;
+}
+
+#banner
+{
+    background-color: rgb(243, 35, 35);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding:5% 0px 5% 0px;
+    font-weight: 600;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+h1
+{
+    font-size: inherit;
+    padding:0px;
+}
+
+#logo
+{
+    font-size: 30px;
+    padding:10px 14px;
+    position: absolute;
+    top:0;
+}
+
+#navBar
+{
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+
+    box-shadow: 0 2px rgb(231, 231, 231);
+}
+
+#pageTitle
+{
+    text-align: center;
+    padding:70px 0px 0px 0px;
+    color:rgb(113, 122, 252);
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#header
+{
+    text-align: left;
+    padding:60px 0px 0px 0px;
+    color:rgb(96, 105, 240);
+    font-size: 26px;
+
+    box-shadow: 0 2px rgb(235, 235, 235);
+}
+
+
+p
+{
+    text-align: left;
+    margin:10px 0px;
+    color:rgb(160, 160, 160);
+    font-size: 24px;
+}
+
+
+#hiddenInfo
+{
+    text-align: left;
+    color:rgb(160, 160, 160);
+    font-size: 24px;
+}
+
+th
+{
+    width: 33.333%;
+    font-weight: inherit;
+}
+
+#nonShrinkableColumn
+{
+    min-width: 300px;
+}
+
+.sideImg
+{
+    max-width: 60%;
+
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: lightgray;
+    padding:5px;
+}
+
+#imgInfo
+{
+    text-align: center;
+    color:rgb(160, 160, 160);
+    font-size: 20px;
+    line-height: 14px;
+}
+
+
+a:link
+{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover
+{
+    color: lightgrey;
+    text-shadow: 0 1px rgba(136, 136, 136, 0.301);
+}
+
+#navBarLink
+{
+    padding: 15px;
+}
